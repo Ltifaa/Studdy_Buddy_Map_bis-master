@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="style.css">
+    <title>Study Buddy Interactive Map</title>
+</head>
+<body>
+    <!-- début header -->
+    <section id="header_1">
+        <div class="logo_1">
+          <a href="indexhomepage.html"><img id="imgLogo_1" src="images/studyBuddyLogo-removebg-preview.png" alt="logo"></a>
+        </div> 
+        <div class="onglet_1">
+            <ol>
+                <li class="menus_1"><a href="#">cours</a></li>
+                <li class="menus_1"><a href="index.html">maps</a></li>
+                <li class="menus_1"><a href="#">contact</a></li>
+                <a href="#"><i id="menus_1" class="fa-solid fa-user"></a></i>
+            </ol>
+        </div> 
+    </section>
+    <!-- fin header -->
+
+    <H3 class="titre">Ajouter vos lieux prefere pour apprendre !!!</h3>
+
+    <div id="map"></div>
+
+    <!-- début modale  -->
+    <dialog id="laModale">
+        <p>Ajoutez un nouveau lieu :</p>
+        <form id="form" method="dialog">
+            <p>
+                <label>Nom :
+                    <input type="text" id="nom" placeholder="Nom du lieu" />
+                </label>
+            </p>
+            <p>
+                <label>Image :
+                    <input type="url" id="image" placeholder="url de votre image"/>
+                </label>
+            </p>
+            <p>
+                <label>Infos :
+                    <input type="text" id="info" placeholder="Informations"/>
+                </label>
+            </p>
+
+            <input type="radio" id="filterMusées" name="filterForMap" value="musées">
+            <label for="filter">Musées</label>
+            
+            <input type="radio" id="filterAssociations" name="filterForMap" value="associations">
+            <label for="filter">Associations</label>
+
+
+            <div id="buttons_1">
+                <button class="modalBtn_1" value="non">Annuler</button>
+                <button class="modalBtn_1" value="oui">Ajouter</button>
+            </div>
+        </form>
+    </dialog>
+    <!-- fin modale -->
+    <!-- test pour git -->
+
+    <script src="main.js"></script>
+</body>
+</html>

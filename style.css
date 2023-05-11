@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gluten:wght@700&family=Josefin+Slab&family=Sora:wght@300&display=swap');
+
+
+html body{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url(images/background.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* début header Bintou */
+.logo_1 img{
+    width: 200px;
+}
+
+.onglet_1 ol{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 24px;
+    padding:30px;
+    box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.5);
+    border-radius: 30px;
+    margin-right: 45px;
+    color: #E7C6FF;
+    background-color: rgba(255,255,255,0.7);
+    min-width: 600px;
+}
+
+
+section#header_1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px 150px;
+    align-items: center; 
+}
+
+.onglet_1 a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    background-size: 0% 0.1em;
+    background-position-x:100% ;
+    background-position-y:50% ;
+    background-repeat: no-repeat;
+    color:#C8B6FF ;
+    font-family: "Sora";
+}
+
+
+.onglet_1 a:hover{
+    background-size: 100% 0.5em;
+    color:#E7C6FF ;
+}
+
+.menu_icon_1{
+    width: 30px;
+    cursor: pointer;
+    margin-left:40px ;
+}
+/* fin du header :bintou*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    #map {
+        width: 1000px;
+        height: 500px;
+        border:10px solid #C8B6FF;
+        box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.8); ;
+        margin-top: 10px;
+    }
+
+    .titre{
+        font-size: 30px;
+        font-family: "Gluten";
+    
+    }
+
+    #laModale{
+        height:200PX;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 25% 25%;
+        border: 1px solid #FFD6FF;
+        background-color: #FFD6FF;
+        padding:0 25px; 
+        border-radius: 15px 5px 15px 5px;
+        font-family: "Gluten";
+    }
+    
+    input#nom{
+        border-radius:5px;
+        width: 150px;
+        margin-bottom: 5px;
+    }
+    
+    input#nom::placeholder{
+        padding-left: 5px;
+        font-family: "Sora";
+        color: #8367C7;
+    }
+    
+    
+    input#image{
+        border-radius: 5px;
+        width: 150px;
+        margin-bottom: 5px;
+    }
+    
+    input#image::placeholder{
+        padding-left: 5px;
+        font-family: "Sora";
+        color: #8367C7;
+    }
+    
+    input#info{
+        border-radius:5px;
+        width: 150px;
+        margin-bottom: 5px;
+    }
+
+    input#info::placeholder{
+        padding-left: 5px;
+        font-family: "Sora";
+        color: #8367C7; 
+    }
+    
+    #buttons_1{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#fff ;
+    }
+    
+    .modalBtn_1{
+    background-color:#fff;
+    color: #8367C7;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Sora";
+    transition: transform 0.5s;
+    
+    
+    }
+    
+    .modalBtn_1:hover{
+    transform:translateX(-10px)  ;
+    }
+    
+    .leaflet-popup-content-wrapper {
+        background: #B8C0FF;
+        color: #e9e3e3;
+        font-family: "Gluten";
+        box-shadow: 0 3px 14px rgba(0,0,0,0.5);
+    }
+    
+    .leaflet-container a {
+        color: rgb(5, 5, 6);
+        text-decoration: underline;
+        /* tesy1 */
+    }
+    

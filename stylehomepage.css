@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Gluten:wght@700&family=Josefin+Slab&family=Sora:wght@300&display=swap');
+
+
+html body{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url(images/background.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding-left:8%;
+    padding-right: 8%;
+}
+
+.logo_1 img{
+    width: 200px;
+
+}
+
+.onglet_1 ol{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 24px;
+    padding:30px;
+    box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.5);
+    border-radius: 30px;
+    margin-right: 45px;
+    color: #E7C6FF;
+    background-color: rgba(255,255,255,0.7);
+    min-width: 600px;
+}
+
+
+section#header_1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px 150px;
+    align-items: center;
+   
+}
+
+.onglet_1 a{
+    text-decoration: none;
+    padding-bottom: 5px;
+    background-size: 0% 0.1em;
+    background-position-x:100% ;
+    background-position-y:50% ;
+    background-repeat: no-repeat;
+    color:#C8B6FF ;
+    font-family: "Sora";
+    
+}
+
+
+.onglet_1 a:hover{
+    background-size: 100% 0.5em;
+    color:#E7C6FF ;
+     
+}
+
+.menu_icon_1{
+    width: 30px;
+    cursor: pointer;
+    margin-left:40px ;
+}
+/* fin du header :bintou*/
+
+/* contenu de la page :bintou*/
+
+.contenu_1{
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+    background-color: #E7C6FF;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(10, 5, 5, 0.5);
+}
+
+#titre_accueil_1{
+    font-size: 50px;
+    color:#fff;
+    margin: 20px 0 0 40px;
+    font-family: "Gluten";
+
+}
+
+#description_accueil_1{
+    font-size: 22px;
+    color: #fff; 
+    margin-left: 40px;
+    font-family: "Sora";
+}
+
+.bouton_accueil_1{
+    width: 180px;
+    color:#FFF ;
+    background-color: #8367C7;
+    font-size: 18px;
+    padding: 12px 0 ;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin-top:100px ;
+    margin-left: 70%;
+    font-family: "Sora";
+
+}
+
+
+.image_accueil_1{
+    display: flex; 
+    flex-wrap: wrap;
+    min-width: 50%;
+    justify-content: flex-end;
+
+}
+
+.text_accueil_1{ 
+    min-width: 50%;
+}
+
+
+
+.card_1{
+    width:100%;
+    height: 100%;
+    display: inline-block;
+    border-radius:10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: url(images/image_accueil.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_1:hover{
+    transform:translateY(-10px) ;
+}
+
